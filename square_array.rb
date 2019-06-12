@@ -1,6 +1,6 @@
 def square_array(array)
   # your code here
-  array.each{ |x| x*x }
+  test = array.each{ |x| x*x }
   
-  array.map{ |x| x*x }
+  test.map{ |x| x*x }
 end
